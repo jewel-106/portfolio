@@ -325,11 +325,16 @@ nav .fa-solid{
 /* ---------css for small screen--------- */
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: url("images/ranaback.jpg");
+        background-image: url("images/ase.jpg");
     }
     .header-text {
-        margin-top: 100%; /* Adjusted for better mobile display */
+        
+        margin-top: 170%; /* Adjusted for better mobile display */
         font-size: 16px;
+    }
+    .header-text p{
+        font-size: 20px;
+        color:white
     }
     .header-text h1 {
         font-size: 30px; /* Slightly reduced for better mobile layout */
